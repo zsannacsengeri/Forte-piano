@@ -1,0 +1,224 @@
+h3 {
+  padding-left: 3%;
+}
+
+/* --Logo-- */
+.logo {
+  width: 80px;
+  margin-left: 700px;
+}
+
+/* --First section-- */
+.piano-main-photo {
+  align-items: center;
+  background-image: url("photos/main.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 450px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+
+}
+.first {
+  background: #fbe0c4;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0;
+  height: 150px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+}
+
+.first-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 120px;
+  padding: 5%;
+
+}
+.different {
+  text-align: center;
+  padding-top: 28px;
+  background: #ffcb91;
+  height: 100px;
+  margin: 0;
+  font-family: 'Benne', serif;
+  font-size: bold;
+}
+
+/* -- Middle section-- */
+.mission {
+  width: 380px;
+  height: 300px;
+  padding: 3%;
+}
+
+.skills {
+  width: 380px;
+  height: 300px;
+  padding: 3%;
+}
+
+.motivation {
+  width: 380px;
+  height: 300px;
+  padding: 3%;
+}
+
+.parag-1 {
+  font-size: 20px;
+  padding-left: 10px;
+  height: 150px;
+}
+.parag-2 {
+  font-size: 20px;
+  padding-left: 10px;
+  height: 150px;
+}
+.parag-3 {
+font-size: 20px;
+padding-left: 10px;
+height: 150px;
+}
+
+/* -- Method section --*/
+
+.explain{
+  font-size: 20px;
+}
+
+#method {
+background-color: #e9c496;
+padding: 7%;
+font-family: 'Benne', serif;
+font-size: 16px;
+}
+
+.method-text {
+
+line-height: 1.2;
+text-align: center;
+}
+
+.method-image {
+width: 15%;
+border-radius: 100%;
+margin: 7%;
+}
+
+/* -- Pricing section --*/
+
+#pricing {
+  text-align: center;
+  padding: 5%;
+  background-color: #efefef;
+}
+
+/*-- Contact section --*/
+
+.foto {
+ width: 200px;
+ height: 200px;
+ padding-bottom: 20px;
+
+
+}
+
+
+.more {
+  text-align: center;
+  padding: 5%;
+  margin: 2%;
+  font-family: 'Benne', serif;
+  font-size: 20px;
+  background-color: #ffcb91;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: 5;
+}
+
+.bump {
+  border: 2px solid gray;
+  padding: 3%;
+  font-size: 22px;
+}
+
+.email {
+    margin-top: 18px;
+    text-align: center;
+
+  }
+.submit {
+
+      background-color: #ffb26b;
+      border-radius: 3px;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      margin: 15px auto;
+      text-align: center;
+      transition: 0.4s ease-in-out;
+      width: 220px;
+      height: 30px;
+      border: 1px solid gray;
+  }
+
+  .submit:hover {
+    background-color: #cbaf87;
+  }
+
+
+/* Footer */
+
+footer {
+  align-items: center;
+  background-color: #efefef;
+  color: #000;
+  height: 150px;
+  margin-top: 0;
+  padding-top: 45px;
+  padding-left: 560px;
+}
+
+.social-icon {
+  font-size: 20px;
+  text-align: center;
+  padding-left: 48px;
+}
+
+/* -- Media section -- */
+
+@media (max-width: 576px) {
+
+.first {
+  height: 200px;
+}
+.first-row {
+
+ display: grid;
+ text-align: center;
+}
+
+.testimonial-image {
+width: 25%;
+
+}
+footer {
+padding-left: 160px;
+
+}
+
+#testimonials {
+  padding: 2%;
+}
+.social-icon {
+margin-right: 42px;
+
+}
+
+ }
